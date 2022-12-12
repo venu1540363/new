@@ -1,0 +1,30 @@
+element.style {
+	min-height: 46px !important;
+}
+
+.chat .chat-item, .color-switcher, .info, .info-box, .login-box .user-box form, .messages li a, .messages li a .msg-img, .messages li a .msg-text, .messages li a .msg-time, .navbar .logo-box, .navbar .logo-box a, .page-breadcrumb, .page-breadcrumb .breadcrumb, .page-breadcrumb ul, .page-footer, .page-inner, .search-form, .small-sidebar .accordion-menu li a, .small-sidebar .page-sidebar-fixed .page-inner, .tasks li a, .tasks li a .task-icon, .text-box, .top-menu .navbar-nav>li>a>img, body:not(.small-sidebar):not(.page-horizontal-bar) .menu.accordion-menu {
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+.page-inner {
+	padding: 0 0 50px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	background: #f9f9f9 url(subtle-grey.png);
+	background-image: url(subtle-grey.png);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(249, 249, 249);
+	position: relative;
+}
+

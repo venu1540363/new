@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head part where we link to the css page -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="firstpage.css">
+	<title>MAIN PAGE</title>
+</head>
+<!-- body part -->
+
+
+
+
+<body>
+
+	<!-- navbar, ths is the top section of thne page -->
+	<nav class="navbar">
+		<div class="logo">IIIT</div>
+		<ul class="nav-links">
+			<li class="active"><a href="lib.html">Library</a></li>
+			<li class="active"><a href="aboutus.html">About college</a></li>
+			<li class="ctn2"><a href="https://rguktn.ac.in/contactus/">Contact Us</a></li>
+		</ul>
+		<img src="./img/menu-btn.png" alt="" class="menu-btn"></img>
+	</nav>
+
+
+
+	<!-- main content -->
+	<header>
+		<div class="header-content">
+			<h2>WELCOME TO MY COLLEGE PAGE</h2>
+			<div class="line"></div>
+			<h1>IIIT NUZVID(RGUKT)</h1>
+		</div>
+	</header>
+
+
+
+	<!-- script part -->
+	<script>
+		const menuBtn = document.querySelector('.menu-btn');
+		const navlinks = document.querySelector('.nav-links');
+		menuBtn.addEventListener('click', () => {
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+</body>
+
+</html>
